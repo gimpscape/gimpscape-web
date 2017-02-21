@@ -1,6 +1,7 @@
 body {
   padding-top: 50px;
   background-color: #f2f2f2;
+  /*font-family: 'Raleway', sans-serif;*/
 }
 
 /*header*/
@@ -92,6 +93,56 @@ h1,h2,h3,h4,h5{
 .social-btn:hover{
   color: #40a1e5 !important;
 }
+
+/*home*/
+.home-posts{
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+.home-post{
+  border-radius: 5px;
+  border-right: 1px solid rgba(51, 51, 51, 0.3);
+  border-bottom: 1px solid rgba(51, 51, 51, 0.3);
+  background-color: #eee;
+  padding: 10px;
+}
+.followus{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #5098ce;
+  color: white;
+  font-size: 12pt;
+}
+.list-noindent{
+  padding-left: 18px;
+  margin-bottom: 40px;
+}
+.followus-benefit{
+  border-radius: 5px;
+  border-right: 1px solid rgba(51, 51, 51, 0.3);
+  border-bottom: 1px solid rgba(51, 51, 51, 0.3);
+  background-color: rgba(80, 118, 206, 0.64);
+  padding: 30px;
+  text-align: center;
+}
+.benefit-title{
+  font-size: 16pt;
+  margin-bottom: 20px;
+}
+.supportus{
+  padding-top: 50px;
+  padding-bottom: 120px;
+  background-image:url("../img/donatebg.jpg");
+  background-size: cover;
+  background-color: #ddd;
+  font-size: 12pt;
+}
+.supportus-title{
+  font-size: 18pt;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 80px;
+}
 /*blogpost*/
 .post{
   clear: both;
@@ -158,4 +209,8 @@ h1,h2,h3,h4,h5{
 }
 .blog-widget-body a:hover{
   color: #105185;
+}
+.carousel-control.left,
+.carousel-control.right{
+  background: none;
 }

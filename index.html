@@ -12,6 +12,7 @@
     <link href="css/gimpscape.css" rel="stylesheet">
     <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="css/carousel.css" rel="stylesheet">
 
   </head>
   <body>
@@ -30,7 +31,7 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Kabar</a></li>
+            <li><a href="#">Kabar</a></li>
             <li><a href="#">Tutorial</a></li>
             <li><a href="#">Ruang Karya</a></li>
             <li><a href="#">Komunitas</a></li>
@@ -43,89 +44,129 @@
       </div>
     </nav>
 
-      <div class="page-title">
-        <div class="container">
-          <h2>Kabar Gimpscape</h2>
-        </div>
-      </div>
+    <!-- Carousel
+   ================================================== -->
+   <div id="myCarousel" class="carousel slide" data-ride="carousel">
+     <!-- Indicators -->
+     <ol class="carousel-indicators">
+       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+       <li data-target="#myCarousel" data-slide-to="1"></li>
+     </ol>
+     <div class="carousel-inner" role="listbox">
+       <div class="item active">
+         <img class="first-slide" src="img/carousel2.jpg" alt="First slide">
+         <div class="container">
+           <div class="carousel-caption">
+             <h3>Creative freedom start here.</h3>
+           </div>
+         </div>
+       </div>
+       <div class="item">
+         <img class="second-slide" src="img/carousel1.jpg" alt="Third slide">
+         <div class="container">
+           <div class="carousel-caption">
+             <h3>One more for good measure.</h3>
+           </div>
+         </div>
+       </div>
+     </div>
+     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+       <i class="fa fa-fw fa-angle-left"></i>
+       <span class="sr-only">Previous</span>
+     </a>
+     <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+       <i class="fa fa-fw fa-angle-right"></i>
+       <span class="sr-only">Next</span>
+     </a>
+   </div><!-- /.carousel -->
+
 
       <div class="container">
-        <div class="row">
-          <div class="col-md-9">
-            <div class="content-rounded-pop">
-              <!-- each-post -->
-              <div class="post">
-                <div class="img-col">
-                  <img src="img/artikel/artikel1.png">
+        <h3>Kabar GimpScape ID</h3>
+        <div class="home-posts">
+          <div class="row">
+                <!-- posts -->
+                <div class="home-post col-md-3">
+                    <p class="post-date">12 Jan 2017</p>
+                    <a href="#" class="post-title">Kuliah Telegram WPAP</a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 </div>
-                <div class="post-col">
-                  <p class="post-date">12 Jan 2017</p>
-                  <a href="#" class="post-title">Kuliah Telegram WPAP</a>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur possimus eos sequi aut officiis repudiandae iure molestias voluptatibus, repellendus? Distinctio necessitatibus veniam, corporis. Et tenetur reiciendis, corporis sapiente neque asperiores.</p>
+                <div class="home-post col-md-3">
+                    <p class="post-date">12 Jan 2017</p>
+                    <a href="#" class="post-title">Judul Artikel</a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 </div>
-              </div>
-              <!-- each-post -->
-              <!-- each-post -->
-              <div class="post">
-                <div class="img-col">
-                  <img src="img/artikel/artikel2.png">
+                <div class="home-post col-md-3">
+                    <p class="post-date">12 Jan 2017</p>
+                    <a href="#" class="post-title">Sayur Elektronik</a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit..</p>
                 </div>
-                <div class="post-col">
-                  <p class="post-date">12 Jan 2017</p>
-                  <a href="#" class="post-title">Judul Artikel</a>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur possimus eos sequi aut officiis repudiandae iure molestias voluptatibus, repellendus? Distinctio necessitatibus veniam, corporis. Et tenetur reiciendis, corporis sapiente neque asperiores.</p>
+                <div class="home-post col-md-3">
+                    <p class="post-date">12 Jan 2017</p>
+                    <a href="#" class="post-title">Judul Artikel</a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 </div>
-              </div>
-              <!-- each-post -->
-              <!-- each-post -->
-              <div class="post">
-                <div class="img-col">
-                  <img src="img/artikel/artikel3.jpg">
-                </div>
-                <div class="post-col">
-                  <p class="post-date">12 Jan 2017</p>
-                  <a href="#" class="post-title">Sayur Elektronik</a>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur possimus eos sequi aut officiis repudiandae iure molestias voluptatibus, repellendus? Distinctio necessitatibus veniam, corporis. Et tenetur reiciendis, corporis sapiente neque asperiores.</p>
-                </div>
-              </div>
-              <!-- each-post -->
+                <!-- posts -->
+          </div><!-- row -->
+        </div>
+      </div><!-- container -->
+
+
+      <div class="followus">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h3>Join with us</h3>
+              <p>Bergabunglah bersama dengan 800+ anggota komunitas kami, free!</p>
+              <ul class="list-noindent">
+                <li>Kuliah online via Telegram</li>
+                <li>Tantangan desain setiap minggu</li>
+                <li>Diskusi kapanpun</li>
+                <li>Kopdar</li>
+              </ul>
             </div>
           </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="followus-benefit">
+                <p class="benefit-title">Kuliah Online</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi praesentium commodi consequatur recusandae.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="followus-benefit">
+                <p class="benefit-title">Tantangan Mingguan</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi praesentium commodi consequatur recusandae.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="followus-benefit">
+                <p class="benefit-title">Kopdar</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi praesentium commodi consequatur recusandae.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- followus -->
 
-          <!-- widget side -->
-          <div class="col-md-3">
-            <!-- each widget -->
-              <div class="blog-widget">
-                <div class="blog-widget-title">Kategori</div>
-                <div class="blog-widget-body">
-                  <ul>
-                    <li><a href="">Lorem ipsum dolor</a></li>
-                    <li><a href="">Ipsum dolor</a></li>
-                    <li><a href="">Dolor sit amet</a></li>
-                    <li><a href="">Sit amet contexture</a></li>
-                    <li><a href="">Lorem ipsum</a></li>
-                  </ul>
-                </div>
-              </div>
-            <!-- each widget -->
-            <!-- each widget -->
-              <div class="blog-widget">
-                <div class="blog-widget-title">Arsip</div>
-                <div class="blog-widget-body">
-                  <ul>
-                    <li><a href="">Lorem ipsum dolor</a></li>
-                    <li><a href="">Ipsum dolor</a></li>
-                    <li><a href="">Dolor sit amet</a></li>
-                    <li><a href="">Sit amet contexture</a></li>
-                    <li><a href="">Lorem ipsum</a></li>
-                  </ul>
-                </div>
-              </div>
-            <!-- each widget -->
+      <div class="supportus">
+        <div class="container">
+          <div class="supportus-title"><i class="fa fa-fw fa-heart" style="color:#ff12a7"></i> Support Gimpscape</div>
+          <div class="row">
+            <div class="col-md-6" style="text-align:center;">
+              <img src="img/donate.png" width="150px">
+            </div>
+            <div class="col-md-6">
+              <h3>Join the development funds</h3>
+              <p>GimpScapeID welcomes recurring donations to the development funds. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta at vel, perferendis aut labore vitae autem ab inventore, voluptates, unde modi quibusdam! Consequuntur aut temporibus fugit vel inventore est enim.</p>
+              <p>
+                <a href="#" class="btn btn-md btn-info"><i class="fa fa-fw fa-money"></i> Donasi</a>
+                <a href="#" class="btn btn-md btn-default">Subscribe</a>
+              </p>
+            </div>
           </div>
         </div>
       </div>
-      <!-- container -->
 
       <footer class="footer">
         <div class="container">
