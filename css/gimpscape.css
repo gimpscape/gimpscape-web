@@ -3,7 +3,9 @@ body {
   background-color: #f2f2f2;
   /*font-family: 'Raleway', sans-serif;*/
 }
-
+a{
+  text-decoration: none!important;
+}
 /*header*/
 .page-title {
   padding: 10px 10px 30px 10px;
@@ -245,10 +247,47 @@ h1,h2,h3,h4,h5{
   margin-bottom: 20px;
 }
 
+.filter-nav{
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.filter-dropdown{
+  display: inline-block;
+  position: relative;
+  list-style: none;
+  margin-right: 5px;
+}
+.dropdown-content{
+  display: none;
+  list-style: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 0;
+  z-index: 1;
+}
+.dropdown-content>li>a{
+  padding: 5px 5px 5px 10px;
+  display: inline-block;
+  color: inherit;
+}
+
+.filter-dropdown:hover .dropdown-content,
+.filter-dropdown:hover{
+  display: inline-block;
+}
+
+.dropdown-content li:hover{
+  background-color: #e5e5e5;
+}
+
 .karya-section{
   margin-bottom: 50px;
   display: block;
 }
+
 .karya{
   border-right: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
@@ -259,8 +298,40 @@ h1,h2,h3,h4,h5{
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 .karya-img{
   width: 100%;
   height: 100%;
   background-size: cover;
+}
+.karya-info{
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s linear;
+}
+.karya-info-title{
+  color: #000;
+}
+.karya:hover .karya-info{
+  visibility: visible;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  color: #888;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 11pt;
+}
+.karya:hover .karya-img{
+  display: none;
+}
+.karya-section > a{
+  text-decoration: none;
+}
+
+/* FOR CUSTOM PAGE */
+.content-page{
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
