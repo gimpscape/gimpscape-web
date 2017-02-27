@@ -78,7 +78,7 @@
               <div class="row">
                 <!-- per karya -->
                 <div class="col-md-3 col-sm-4 col-xs-12">
-                  <a href="#">
+                  <a href="#" data-toggle="modal" data-target="#karya1">
                     <div class="karya">
                       <div class="karya-img" style="background-image:url('img/karya/karya1.png');"></div>
                       <div class="karya-info">
@@ -90,7 +90,36 @@
                     </div>
                   </a>
                 </div>
-                <!-- per karya -->
+
+                <!-- modal karya hidden-->
+                <div class="modal fade bs-example-modal-lg" id="karya1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content modal-container">
+                      <!-- konten -->
+                      <div class="karya-header">
+                        <img src="img/user.jpg" class="img-circle" width="70">
+                        <h1>Judul Karya</h1>
+                        <h2>oleh <a href="#">User</a> pada 28 Feb 2017</h2>
+                      </div>
+
+                      <div class="karya-modal">
+                        <img src="img/karya/karya1.png" class="img-karya-modal">
+                      </div>
+                      <div class="karya-modal-desc">
+                        <div class="row">
+                          <div class="col-md-7">Deskripsi Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+                          <div class="col-md-5">
+                            <i class="fa fa-fw fa-heart"></i> 5,000 Suka
+                            <hr>
+                            <i class="fa fa-fw fa-reply"></i> 300x dibagikan
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- konten -->
+                    </div>
+                  </div>
+                </div>
                 <!-- per karya -->
                 <div class="col-md-3 col-sm-4 col-xs-12">
                   <a href="#">

@@ -328,7 +328,55 @@ h1,h2,h3,h4,h5{
 .karya-section > a{
   text-decoration: none;
 }
-
+.karya-section  a:focus{
+  outline: 0!important;
+}
+.modal-content{
+  background-color: #f4f4f4!important;
+  color: #333;
+  font-size: 12pt;
+}
+.modal-container{
+  padding:20px 40px 40px 40px;
+}
+.karya-modal{
+  border-left: 1px solid #eaeaea;
+  border-bottom: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+  padding: 20px;
+  background: white;
+  border-radius: 2px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.karya-header{
+  margin-bottom: 40px
+}
+.karya-header img{
+  position: absolute;
+}
+.karya-header h1{
+  font-size: 16pt;
+  margin-left: 90px;
+}
+.karya-header h2{
+  color:#888;
+  font-size: 12pt;
+  font-weight: normal;
+  margin-left: 90px;
+  margin-top: 0;
+}
+.img-karya-modal{
+  width: 100%;
+}
+.karya-modal-desc{
+  margin: 20px 30px 30px 30px;
+}
+.karya-modal-desc hr{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-top: 1px solid #aaa;
+}
 /* FOR CUSTOM PAGE */
 .content-page{
   background-color: #fff;
